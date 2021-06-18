@@ -6,4 +6,5 @@
 
 body {
   margin: 0;
+  background: linear-gradient(hsl(273, 75%, 66%) 50%, hsl(240, 73%, 65%) 100%);
 }
