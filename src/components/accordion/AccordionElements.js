@@ -37,7 +37,7 @@ export const AccordionButton = styled.div`
 
 export const AccordionContent = styled.div(
   ({ theme, open }) => css`
-    padding-right: 1.2em;
+    padding-right: 2.7em;
     font-size: 0.9em;
     color: ${theme.text.darkGrayBlue};
     transition: 150ms ${TRANSITION_EFFECT}, opacity 120ms ease-out;
