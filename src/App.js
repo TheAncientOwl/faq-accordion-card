@@ -1,22 +1,21 @@
 import { ThemeProvider } from 'styled-components';
-import Accordion from './components/accordion';
 import Theme from './Theme';
+import styled from 'styled-components';
+import FAQ from './components/faq';
+
+const Container = styled.div`
+  min-height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+`;
 
 export default function App() {
   return (
     <ThemeProvider theme={Theme}>
-      <div
-        style={{
-          paddingTop: '70px',
-          minHeight: '60vh',
-          width: '30vw',
-          margin: '0 auto',
-        }}>
-        <Accordion
-          title={'What is the maximum file upload size?'}
-          content={'No more than 2GB. All files in your account must fit your alloted storage space.'}
-        />
-      </div>
+      <Container>
+        <FAQ />
+      </Container>
     </ThemeProvider>
   );
 }

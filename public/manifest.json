@@ -1,6 +1,6 @@
 {
-  "short_name": "Stats",
-  "name": "Stats Preview Card",
+  "short_name": "FAQ",
+  "name": "FAQ accordion component",
   "icons": [
     {
       "src": "favicon.ico",

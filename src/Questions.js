@@ -1,4 +1,4 @@
-const FAQ = [
+const Questions = [
   {
     title: 'How many team members can I invite?',
     content:
@@ -23,5 +23,5 @@ const FAQ = [
   },
 ];
 
-Object.freeze(FAQ);
-export default FAQ;
+Object.freeze(Questions);
+export default Questions;
