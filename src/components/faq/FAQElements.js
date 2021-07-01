@@ -9,31 +9,37 @@ export const Container = styled.div`
   overflow: hidden;
 
   display: grid;
-  grid-template-columns: 50% 50%;
-  padding: 3em;
+  grid-template-columns: 45% 55%;
 `;
 
 export const IllustrationSection = styled.section`
-  //border: 1px solid red;
   position: relative;
 `;
 
 export const IllustrationBackground = styled.img`
+  display: block;
+  width: 100%;
   position: absolute;
-  display: none;
+  top: -3.6em;
+  left: -16em;
+  transform: scale(1.8);
 `;
 
 export const Illustration = styled.img`
+  width: 100%;
   position: absolute;
-  margin-left: -110px;
+  top: 2em;
+  left: -2em;
 `;
 
 export const IllustrationBox = styled.img`
-  position: absolute;
+  width: 100%;
   display: none;
 `;
 
-export const QuestionsSection = styled.section``;
+export const QuestionsSection = styled.section`
+  padding: 1.2em;
+`;
 
 export const QuestionsTitle = styled.div`
   font-size: 2em;
