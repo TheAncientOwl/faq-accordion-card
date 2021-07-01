@@ -5,10 +5,9 @@ import FAQ from './components/faq';
 
 const Container = styled.div`
   min-height: 100vh;
-  //display: grid;
-  //justify-content: center;
-  //align-items: center;
-  padding-top: 40px;
+  display: grid;
+  display: 100%;
+  align-items: center;
 `;
 
 export default function App() {
