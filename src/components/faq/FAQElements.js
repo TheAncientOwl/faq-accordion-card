@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Breakpoints from '../../Breakpoints';
 
 export const Container = styled.div`
   width: 80%;
@@ -9,6 +10,10 @@ export const Container = styled.div`
 
   display: grid;
   grid-template-columns: 45% 55%;
+
+  @media (max-width: ${Breakpoints.mobile}) {
+    grid-template-columns: 100%;
+  }
 `;
 
 export const IllustrationSection = styled.section`
