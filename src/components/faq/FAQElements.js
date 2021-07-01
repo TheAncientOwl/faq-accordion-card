@@ -6,13 +6,13 @@ export const Container = styled.div`
 
   background-color: white;
   border-radius: 1em;
-  overflow: hidden;
 
   display: grid;
   grid-template-columns: 45% 55%;
 `;
 
 export const IllustrationSection = styled.section`
+  overflow: hidden;
   position: relative;
 `;
 
@@ -20,21 +20,23 @@ export const IllustrationBackground = styled.img`
   display: block;
   width: 100%;
   position: absolute;
-  top: -3.6em;
-  left: -16em;
-  transform: scale(1.8);
+  left: -19em;
+  transform: scale(2.3);
 `;
 
 export const Illustration = styled.img`
   width: 100%;
   position: absolute;
-  top: 2em;
+  top: 5em;
   left: -2em;
+  transform: scale(1.1);
 `;
 
 export const IllustrationBox = styled.img`
-  width: 100%;
-  display: none;
+  top: 11em;
+  left: -5em;
+  transform: scale(0.7);
+  position: absolute;
 `;
 
 export const QuestionsSection = styled.section`

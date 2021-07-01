@@ -43,6 +43,7 @@ export const AccordionContent = styled.div(
     transition: 150ms ${TRANSITION_EFFECT}, opacity 120ms ease-out;
     height: ${open ? '' : '0'};
     opacity: 0;
+    line-height: 1.5em;
 
     ${open &&
     css`
