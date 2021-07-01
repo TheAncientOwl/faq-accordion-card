@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/faq-accordion-card/static/css/main.54dace6e.chunk.css",
-    "main.js": "/faq-accordion-card/static/js/main.46dde260.chunk.js",
-    "main.js.map": "/faq-accordion-card/static/js/main.46dde260.chunk.js.map",
+    "main.js": "/faq-accordion-card/static/js/main.57928136.chunk.js",
+    "main.js.map": "/faq-accordion-card/static/js/main.57928136.chunk.js.map",
     "runtime-main.js": "/faq-accordion-card/static/js/runtime-main.ba8ad2d2.js",
     "runtime-main.js.map": "/faq-accordion-card/static/js/runtime-main.ba8ad2d2.js.map",
     "static/js/2.32937787.chunk.js": "/faq-accordion-card/static/js/2.32937787.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.ba8ad2d2.js",
     "static/js/2.32937787.chunk.js",
     "static/css/main.54dace6e.chunk.css",
-    "static/js/main.46dde260.chunk.js"
+    "static/js/main.57928136.chunk.js"
   ]
 }
